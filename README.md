@@ -18,7 +18,7 @@ To run our code follow the next steps:
 
 - Select the right directory;
 
-``cd recsys_conv && unzip recsys_posneg_conf-CBC6``
+``cd recsys_conv && unzip recsys_conv_conf-5FE1``
 
 - Install the necessary requirements.
 
