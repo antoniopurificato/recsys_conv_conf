@@ -30,7 +30,7 @@ gzip -d All_Beauty.json.gz
 
 cd ..
 
-curl -o dataset_tsmc2014.zip http://www-public.tem-tsp.eu/~zhang_da/pub/dataset_tsmc2014.zip
+wget http://www-public.imtbs-tsp.eu/~zhang_da/pub/dataset_tsmc2014.zip
 
 unzip dataset_tsmc2014.zip
 
