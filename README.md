@@ -1,9 +1,9 @@
-# Are Convolutional Sequential Recommender System Models Still Competitive? A Detailed Analysis with New Insights
+# Are Convolutional Sequential Recommender Systems Still Competitive? Introducing New Models and Insights
 
 To run our code follow the next steps:
 
 ``mkdir easy_lightning``
-- Download this [repo](https://anonymous.4open.science/r/easy_lightning-B93D). Since an anonymous repo can not be cloned, you have to download it on your machine manually. Insert the zip in the folder `easy_lightning` and unzip it.
+- Download this [repo](https://anonymous.4open.science/r/easy_lightning-B93D) inside the `easy_lightning` folder. Since an anonymous repo can not be cloned, you have to download it on your machine manually. Insert the zip in the folder `easy_lightning` and unzip it.
 
 
 ``cd easy_lightning && unzip easy_lightning-B93D.zip``
@@ -14,7 +14,7 @@ To run our code follow the next steps:
 - Create the folder `recsys_conv`.
 
 ``mkdir recsys_conv``
-- Download **this repo**. As before, it can't be cloned. Insert the zip in the folder `recsys_conv`.
+- Download **this repo** inside the `recsys_conv` folder. As before, it can't be cloned. Insert the zip in the folder `recsys_conv`.
 
 - Select the right directory;
 
@@ -31,3 +31,6 @@ To run our code follow the next steps:
 
 
 ``python3 main.py``
+
+
+If you want to have a look to the Caser+ and CosRec+ models, look to the directory `new_models`.
