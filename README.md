@@ -2,35 +2,37 @@
 
 To run our code follow the next steps:
 
-``mkdir easy_lightning``
-- Download this [repo](https://anonymous.4open.science/r/easy_lightning-B93D) inside the `easy_lightning` folder. Since an anonymous repo can not be cloned, you have to download it on your machine manually. Insert the zip in the folder `easy_lightning` and unzip it.
+- Download the EasyLightning library:
 
+```
+pip3 install  --upgrade --force-reinstall git+https://github.com/PokeResearchLab/easy_lightning.git
+```
 
-``cd easy_lightning && unzip easy_lightning-B93D.zip``
-- Install the repo just downloaded. Go in the parent directory of `easy_lightning`. If `easy_lightning` is in Desktop, you have to stay in Desktop;
+- Clone **this repo**:
 
-``cd .. && pip3 install --upgrade --force-reinstall easy_lightning/ > /dev/null 2>&1``
-
-- Create the folder `recsys_conv`.
-
-``mkdir recsys_conv``
-- Download **this repo** inside the `recsys_conv` folder. As before, it can't be cloned. Insert the zip in the folder `recsys_conv`.
-
-- Select the right directory;
-
-``cd recsys_conv && unzip recsys_conv_conf-5FE1``
+```
+git clone https://github.com/antoniopurificato/recsys_conv_conf.git
+```
 
 - Install the necessary requirements.
 
-``pip3 install -r requirements.txt``
+```
+pip3 install -r requirements.txt
+```
+
 - Download the data;
 
-``cd ntb && bash download_data.bash``
+```
+cd ntb && bash download_data.bash
+```
 
-- Run a simple experiment using the jupyter notebook.
+- Run a simple experiment using the following code.
 
+```
+python3 main.py
+```
 
-``python3 main.py``
+You can change the model you are running by selecting `SASRec`, `Caser2`, `CosRec2` in the `+rec_model` field of `cfg/model/model.yaml`
 
 
 If you want to have a look to the Caser+ and CosRec+ models, look to the directory `new_models`.
