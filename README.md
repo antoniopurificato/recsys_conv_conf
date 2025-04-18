@@ -5,7 +5,7 @@ To run our code follow the next steps:
 - Download the EasyLightning library:
 
 ```
-pip3 install  --upgrade --force-reinstall git+https://github.com/PokeResearchLab/easy_lightning.git
+pip3 install  --upgrade --force-reinstall git+https://github.com/federicosiciliano/easy_lightning.git
 ```
 
 - Clone **this repo**:
